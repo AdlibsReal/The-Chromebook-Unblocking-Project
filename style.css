@@ -82,3 +82,26 @@ greenurl {
   font-style: normal;
   text-shadow: 2px 2px #363636;
 }
+
+button {
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    outline:none;
+    width: auto;
+    height: auto;
+    color: #000000;
+    opacity: .5;
+    transition: .3s;
+    display: inline-block;
+
+    border: none;
+    background-color: #ffffff;
+    font-size: 15px;
+    padding: 5px 1px 5px 4px;
+} 
+
+button:hover {
+    opacity: 1;
+}
